@@ -1,11 +1,11 @@
 manifest:
   remotes:
-    - name: zmkfirmware
-      url-base: https://github.com/zmkfirmware
+    - name: GoblinDad
+      url-base: https://github.com/GoblinDad
   projects:
-    - name: zmk
-      remote: zmkfirmware
-      revision: main
+    - name: zmkdrac
+      remote: GoblinDad
+      revision: draculad
       import: app/west.yml
   self:
     path: config
